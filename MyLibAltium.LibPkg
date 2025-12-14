@@ -151,6 +151,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EAIHLXOR
 
+[Document7]
+DocumentPath=Resistors-0603-E96-Yageo.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZQKEIGCZ
+
+[Document8]
+DocumentPath=Resistors.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ESUQEHDS
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
@@ -510,6 +544,11 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
+OutputType10=BOM_ReportManufacturing
+OutputName10=Manufacturing Data
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -804,6 +843,8 @@ Type156=1
 Type157=1
 Type158=1
 Type159=1
+Type160=1
+Type161=1
 
 [Difference Levels]
 Type1=1
@@ -893,6 +934,7 @@ Type84=1
 Type85=1
 Type86=1
 Type87=1
+Type88=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1058,6 +1100,8 @@ Type160=0
 Type161=0
 Type162=1
 Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1134,4 +1178,8 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=0|Use
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+
+[Parameter Manager Custom Column Order]
+resistors-0603-e96-yageo.schlib="Case Code (Imperial)","Case Code (Metric)",Case/Package,Category,"China RoHS",Composition,"Contact Plating",Depth,Features,Height,"Lead Free",Length,"Lifecycle Status",Manufacturer,"Manufacturer Part Number","Max Operating Temperature","Max Power Dissipation","Military Standard","Min Operating Temperature","Mounting Technology","Number of Terminals","Number of Terminations",Packaging,"Power Dissipation","Power Rating","Radiation Hardening","REACH SVHC",RoHS,Supplier,"Supplier Part Number","Temperature Coefficient",Termination,Tolerance,Value
+ota.schlib="Case Code (Imperial)","Case Code (Metric)",Case/Package,Category,"China RoHS","Component Link Description","Component Link URL",Composition,"Contact Plating",Datasheet,Depth,Features,Height,"Lead Free",Length,"Lifecycle Status",Manufacturer,"Max Operating Temperature","Max Power Dissipation","Military Standard","Min Operating Temperature","Mounting Technology","Number of Terminals","Number of Terminations",Packaging,"Power Dissipation","Power Rating","Radiation Hardening","REACH SVHC",RoHS,Supplier,"Manufacturer Part Number","Supplier Part Number",Value,"Temperature Coefficient",Termination,Tolerance,"Voltage Rating","Voltage Rating (AC)","Voltage Rating (DC)",Weight,Width,"Working Voltage"
 
