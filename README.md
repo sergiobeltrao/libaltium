@@ -1,3 +1,3 @@
-# Minha Biblioteca do Altium
+# My Altium Library
 
-Repositório onde armazeno minha biblioteca pessoal de componentes utilizados em meus projetos no Altium Designer.
+Here I keep my personal library of components used in my Altium Designer projects.
